@@ -14,11 +14,11 @@
 
 <!navbar>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-<div class="collapse navbar-collapse" >
-<img src="images/websitelogo.png" >
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="d" style="margin-left:30px">
+<img style='height:45%; width: 45%; object-fit: contain' src="images/newlogo1.png" >
 </div>
-  <div class="collapse navbar-collapse" id="navbarColor02">
+  <div class="collapse navbar-collapse" id="navbarColor03">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
         <a class="nav-link" href="welcome">Home</a>
@@ -41,8 +41,8 @@
 
     <div>
     <form class="form-inline my-2">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      <input class="form-control mr-sm-2" type="text" placeholder="Search Tutor">
+      <button class="btn" type="submit">Search</button>
     </form>
   </div>
 
@@ -62,17 +62,61 @@
     </nav>
 
     
-    <!container>
+    
+<style>
 
-<div class="jumbotron">
-  <h1 class="display-3">Hello, world!</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <p class="lead">
-    <a class="btn btn-dark btn-lg" href="#" role="button">Learn more</a>
-  </p>
-</div>
+.navbar {
+  background:rgba(0,0,0,0.06) !important;
+  
+}
+
+.navbar:hover {
+  background:rgba(0,0,0,0.2) !important;
+  transition: .5s;
+}
+
+
+
+
+li{
+  
+padding: 12px;
+}
+
+
+li a:hover {
+  background-color: #f2af58;
+
+  transition: .7s;
+
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-topright: 15px;
+  -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -webkit-border-radius: 15px 15px 10px 10px;
+  border-radius: 15px 15px 10px 10px;
+  
+}
+
+
+.btn:hover 
+  {
+  color:  white;
+  background-color: #f2af58;
+  border-color: #f2af58;
+  transition: .7s;
+  }
+
+.navbar {
+
+}
+
+</style>
+
+
+@section('content')
+@show
+
 
 </body>
 </html>

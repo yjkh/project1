@@ -17,9 +17,9 @@
 
 <!navbar>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-<div class="collapse navbar-collapse" >
-<img src="images/websitelogo.png" >
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="d" style="margin-left:30px" >
+<img style='height: 45%; width: 45%; object-fit: contain' src="images/newlogo1.png" >
 </div>
   <div class="collapse navbar-collapse" id="navbarColor02">
     <ul class="navbar-nav mr-auto">
@@ -48,7 +48,7 @@
     <div>
     <form class="form-inline my-2">
       <input class="form-control mr-sm-2" type="text" placeholder="Search">
-      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      <button class="btn" type="submit">Search</button>
     </form>
   </div>
 
@@ -56,6 +56,36 @@
   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
   </div>
 </nav>
+
+<style>
+
+    li{
+      
+    padding: 10px;
+    }
+    
+    li a:hover 
+    {
+      background-color: #f2af58;
+      transition: .7s;
+      -moz-border-radius-topleft: 15px;
+      -moz-border-radius-topright: 15px;
+      -moz-border-radius-bottomright: 15px;
+      -moz-border-radius-bottomleft: 15px;
+      -webkit-border-radius: 15px 15px 15px 15px;
+      border-radius: 15px 15px 15px 15px;
+      
+    }
+
+  .btn:hover 
+  {
+  color:  white;
+  background-color: #f2af58;
+  border-color: #f2af58;
+  }
+
+    
+    </style>
 
 @section('content')
         @show
