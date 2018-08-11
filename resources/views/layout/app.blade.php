@@ -66,12 +66,13 @@
 <style>
 
 .navbar {
-  background:rgba(0,0,0,0.06) !important;
+  background:rgba(0,0,0,0.02) !important;
+  
   
 }
 
 .navbar:hover {
-  background:rgba(0,0,0,0.2) !important;
+  background:rgba(0,0,0,0.1) !important;
   transition: .5s;
 }
 
@@ -107,9 +108,13 @@ li a:hover {
   transition: .7s;
   }
 
-.navbar {
+  body { 
+
+    background-color:#FDFEFE  ; 
 
 }
+         
+         
 
 </style>
 
