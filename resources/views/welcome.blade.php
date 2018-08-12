@@ -3,7 +3,7 @@
 
 @section('content')
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- <div class="background">
+    <div class="background">
         <img style='height:100%; width: 100%; object-fit: contain' src="images/librarybackground.jpg" >
         <div class="layer">
             <div class="layer1">
@@ -21,7 +21,7 @@
                 </center>
             </div >
         </div >
-</div>
+    </div>
 
 
     <div class="threebox">
@@ -67,9 +67,9 @@
                       </br>
                       <div class="subjectnames1"><a class="subjectnames" href="subjects">Essay</a></div>
                       </br>
-                      <div class="subjectnames1"><a class="subjectnames" href="forstudents">Grade 10</a></div>
-                      </br>
-                      <div class="subjectnames1"><a class="subjectnames" href="fortutors">A levels</a></div>
+                    <div class="subjectnames1"><a class="subjectnames" href="forstudents">Grade 10</a></div>
+                    </br>
+                    <div class="subjectnames1"><a class="subjectnames" href="fortutors">A levels</a></div>
                     </br></div>
                     <div class="subjectnames1" style="margin-top:7px"><a class="subjectnames" style="font-size:25px" 
                         href="fortutors">View All English Tutors</a></div>
@@ -93,11 +93,75 @@
              </div>
     </div>
 
-    <div class="info">
-            <div class= "info1"></div>
-            <div class= "info1"> </div>
-    </div>
+    <div class="screenshot1">
+            <img style='height:100%; width: 100%; object-fit: contain' src="images/screenshot1.png">
+    
+        </div>
 
+    <div class="info">
+
+
+            <div class= "info1">
+                </br>
+                <div class="personimg"> <img style='height:100%; width: 100%; object-fit: contain' src="images/students.png">
+                </div> 
+                <center><h3>Students<h3></center>
+                <p></br>
+                        Choose a safe and secure tutoring option</br></br>Reduce stress from homework</br> while staying involved in your child's learning
+                        </br></br>
+                        Save time
+                        </br></br>
+                        Try Skooli risk-free with</br> our Satisfaction Guarantee
+                </p>
+                <div style="margin-top:2px"><a  style="font-size:20px" 
+                    href="fortutors">Learn More &#8594</a></div>
+            </div>
+        
+            <div class= "info1">
+                </br>
+                <div class="personimg"> <img style='height:100%; width: 100%; object-fit: contain' src="images/tutors.png">
+                </div> 
+                <center><h3>Students<h3></center>
+                <p></br>
+                        Choose a safe and secure tutoring option</br></br>Reduce stress from homework</br> while staying involved in your child's learning
+                        </br></br>
+                        Save time
+                        </br></br>
+                        Try Skooli risk-free with</br> our Satisfaction Guarantee
+                </p>
+                <div style="margin-top:2px"><a  style="font-size:20px" 
+                    href="fortutors">Learn More &#8594</a></div>
+            </div>
+
+        </div>
+
+            <!-- Footer -->
+
+
+            
+
+
+
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <style>
 
         .background 
@@ -133,7 +197,7 @@
 
         .p 
         {
-            color: #f2af58;
+            color: #C0392B;
             text-align: center;
             text-indent: 50px;
             letter-spacing: 3px;
@@ -168,7 +232,7 @@
             border-top-color:rgba(0,0,0,0.01) ;
             border-right-color:rgba(0,0,0,0.01);
             border-left-color: rgba(0,0,0,0.01);
-            border-bottom-color : #f2af58;
+            border-bottom-color : #C0392B;
             }
 
 
@@ -180,7 +244,6 @@
             font-family: "bookman";
             font-size: 20px;
             color:white;
-            
             border-top-color:rgba(0,0,0,0.01) ;
             border-right-color:rgba(0,0,0,0.01);
             border-left-color: rgba(0,0,0,0.01);
@@ -189,7 +252,7 @@
 
         .btn1:hover {
             color:  white;
-            background-color: #f2af58;
+            background-color: #C0392B;
             transition: .7s;
             -moz-border-radius-topleft: 8px;
             -moz-border-radius-topright: 8px;
@@ -200,7 +263,6 @@
          }
 
          .threebox{
-             border:1px black solid;
              width:100%;
          }
 
@@ -211,10 +273,10 @@
             height: 500px;
             margin-left:3%;
             margin-top:3%;
-            background-color: rgba(255,165,0,0.08);
+            background-color: rgb(123, 36, 28);
             font-family: "bookman";
             font-size: 20px;
-            color:grey;
+            color:white;
             border:1px solid lightgrey;
             -moz-border-radius-topleft: 20px;
             -moz-border-radius-topright: 20px;
@@ -237,7 +299,7 @@
             height: 55px;
             margin-left: 125px;
             margin-top:7px;
-            color: grey;
+            color: white;
             text-align: center;
             text-decoration-style: solid;
             font-family: "bookman";
@@ -250,7 +312,7 @@
             height: 220px;
             margin-left: 75px;
             margin-top:15px;
-            color: grey;
+            color: white;
             text-align: center;
             text-decoration-style: solid;
             font-family: "bookman";
@@ -264,7 +326,7 @@
         .subjectnames{
             
             margin-top:20px;
-            color: grey;
+            color: white;
             text-align: center;
             text-decoration-style: solid;
             font-family: "bookman";
@@ -275,7 +337,7 @@
         .subjectnames1{
             
             margin-top:-10px;
-            color: grey;
+            color: white;
             text-align: center;
             text-decoration-style: solid;
             font-family: "bookman";
@@ -285,9 +347,9 @@
 
         .subjectnames:hover{
             transition: .7s;
-            font-size: 25px;
+            font-size: 22px;
             font-weight: bold;
-             color: grey;
+             color: white;
             text-align: center;
             text-decoration-style: solid;
             font-family: "bookman";
@@ -307,11 +369,11 @@
             height:500px;
             margin-left:3%;
             margin-top:3%;
-            background-color: rgba(255,165,0,0.08);
+            background-color: rgb(123, 36, 28);
             font-family: "bookman";
             font-size: 40px;
             text-align: center;
-            color:grey;
+            color:white;
             -moz-border-radius-topleft: 20px;
             -moz-border-radius-topright: 20px;
             -moz-border-radius-bottomright: 20px;
@@ -351,17 +413,18 @@
         .info{
             width:100%;
             height:600px;
-           
         }
 
         .info1{
+            
             width:35%;
             float:left;
             margin-left:10%;
             margin-top:4%; 
-            height:500px;
+            height:520px;
             border:1px solid lightgrey;
             text-align: center;
+            font-size: 18px;
             color:grey;
             -moz-border-radius-topleft: 20px;
             -moz-border-radius-topright: 20px;
@@ -370,6 +433,21 @@
             -webkit-border-radius: 20px 20px 20px 20px;
             border-radius: 20px 20px 20px 20px;
         }
+
+        .personimg{
+
+            width: 150px;
+            height: 100px;
+            margin-left: 150px;
+            margin-top:20px;
+
+        }
+
+        .screenshot1{
+            margin-top:20px;
+        }
+
+       
 
        
     </style>
