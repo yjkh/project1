@@ -19,3 +19,6 @@ Route::get('/login','ProjectControllers@login');
 Route::get('/subjects','ProjectControllers@subjects');
 Route::get('/forstudents','ProjectControllers@forstudents');
 Route::get('/fortutors','ProjectControllers@fortutors');
+Route::get('/signupst','StudentController@insert');
+Route::get('/signupt','TeacherController@insert');
+Route::get('/log','ProjectControllers@logg');

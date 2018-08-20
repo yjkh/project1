@@ -17,22 +17,22 @@
                             <legend>I am a</legend>
                             <div class="form-check">
                                 <label class="form-check-label">
-                                 <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                                 <input type="radio" class="sk-select-type form-check-input" name="optionsRadios" id="optionsRadios1" checked="" value="signupfors">
                                  Student
                                 </label>
                             </div>
                             <div class="form-check">
                                 <label class="form-check-label">
-                                 <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                                 <input type="radio" class="sk-select-type form-check-input" name="optionsRadios" id="optionsRadios2" value="signupast">
                                   Tutor
                                 </label>
                             </div>
                         </fieldset>
        
                         <div class="container-login100-form-btn" >
-                             <button class="login100-form-btn  bg-dark">
+                             <a href="signupfors" class="sk-register-button login100-form-btn  bg-dark">
                              Register
-                             </button> 
+                             </a> 
                          </div>
 
                     </fieldset>
@@ -40,4 +40,10 @@
            </div>
         </div>
     </div>
+    <script>
+    $(".sk-select-type").on('click',function(){
+        var value=$(this).val();
+        $('.sk-register-button').attr('href',value);
+    });
+</script>
 @endsection

@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use DB;
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
 
 class ProjectControllers extends Controller
 
@@ -45,6 +48,20 @@ class ProjectControllers extends Controller
     public function fortutors() 
     {
         return view('fortutors');
+    }
+
+    public function logg(Request $request)
+    {
+        $users = DB::table('users')->get();
+        foreach ($users as $user) {
+            $email = $request->input('email');
+            $psw = $request->input('pass');
+            if($user->email == $email && $user->password == $psw)
+            {
+                return view('fortutors');
+            }
+        }
+        return redirect()->back()->with('alert', 'invalid email or password... Try Again!'); 
     }
 }
 
